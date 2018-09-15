@@ -1,63 +1,4 @@
-# Learning OpenCV 3
 
-## INTRO
-
-This is the example code that accompanies Learning OpenCV 3 by Adrian Kaehler and Gary Bradski ([9781491937990](http:*shop.oreilly.com/product/0636920044765.do)).
-
-Click the Download Zip button to the right to download example code.
-
-Visit the catalog page [here](http:*shop.oreilly.com/product/0636920044765.do).
-
-See an error? Report it [here](http:*oreilly.com/catalog/errata.csp?isbn=0636920044765), or simply fork and send us a pull request
-
-
-## NOTES
-
-For default suggestions of how the run the code, it assumes you put your build directory under `Learning-OpenCV-3_examples` directory. 
-
-Thus, from the `Learning-OpenCV-3_examples` directory:
-
-```	
-  mkdir build
-  cd build
-  cmake ..
-  make -j
-```
-
-#### Docker
-For your interest, included here is an Ubuntu _Docker_ file that
-* Shares a directory with the host operating system
-* Shares the first camera between both systems
-* Loads Ubuntu 16.04 
-* Loads all dependencies for OpenCV 3.2 and opencv_contrib
-* Loads and builds OpenCV 3.2 and opencv_contrib into a build directory 
-  * executable files end up in `opencv-3.2.0/build/bin`
-* Next, it `git clones` the code (and Docker file) for Learning OpenCV 3 and builds it
-  * executable files end up in `Learning_OpenCV-3_examples/build`
-* To get to the top level directory, just type: `cd`
-
-
-## CONTENTS:
-
-### SPECIAL FILES:
-
-* README.md       -- this readme file
-* Dockerfile      -- complete self contained opencv environment using Ubuntu 16-04
-* CMakeLists.txt  -- how to buld everything here 
-
-### EXERCISES:
-
-* Exercises at end of Chapter 5
-* Exercises at end of Chapter 7
-* Exercises_8_1.cpp Exercises at end of Chapter 8
-* Exercises_9_1-2-10-11-12-15-16.cpp Exercises at end of Chapter 8
-* Exercises_9_4.cpp Exercises at end of Chapter 9
-* Exercises_9_5.cpp Exercises at end of Chapter 9
-* Exercises at end of Chapter 11
-* Exercises_13_1-2-11.cpp	Exercises for Chapter 13
-* Exercises_13_9.cpp	
-
-### EXAMPLES:
 
 * Example 2-1. A simple OpenCV program that loads an image from disk and displays it
 * Example 2-2. Same as Example 2-1 but employing the “using namespace” directive
@@ -167,9 +108,3 @@ For your interest, included here is an Ubuntu _Docker_ file that
 * stereoData   -- left, right image pairs of checkboards to calibrate and view on
 
 
-## LINKS:
-Click the Download Zip button to the right to download example code.
-
-Visit the catalog page [here](http:*shop.oreilly.com/product/0636920044765.do).
-
-See an error? Report it [here](http:*oreilly.com/catalog/errata.csp?isbn=0636920044765), or simply fork and send us a pull request
